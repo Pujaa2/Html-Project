@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Birthday Card Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('https://htmlcolorcodes.com/assets/images/colors/hot-pink-color-solid-background-1920x1080.png');">
+    <div id="container" class="container">
+        <h2>Create Your Virtual Birthday Card 💌</h2>
+        <div id="instructionsContainer">
+    <h2><p>🎉🎂🎈 Happy Birthday! 🎈🎂🎉.</p> </h2>
+    
+</div>
+        <form id="card-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="message">Personal Message📥:</label>
+            <textarea id="message" required></textarea>
+            <label for="image-url">Image/GIF URL:</label>
+            <input type="url" id="image-url" required>
+            <button type="submit">Create Card💌</button>
+        </form>
+    </div>
+    
+
+
+    <div id="board" class="board"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
